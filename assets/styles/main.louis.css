@@ -1,0 +1,138 @@
+/***** NAVIGATION LINKS (upper black bar )**/
+
+nav[id="skye-nav-links"] {
+    height: 5%;
+    background-color: black;
+    color: gray;
+    width: 100%;
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+    color: #F5D0CC;
+    position: sticky;
+}
+
+#skye-nav-links ul {
+    /*border: 1px solid red;*/
+    width: 30%;
+    float: left;
+}
+
+#skye-nav-links ul li {
+    list-style: none;
+    color: hsla(0, 0%, 100%, .6);
+    font-size: 0.91em;
+    display: inline-block;
+    padding: 1.3% 2%;
+}
+
+#skye-nav-links ul li a:hover {
+    color: aliceblue;
+}
+
+
+/*------NAVIGATION LINKS BELOW BLACK RUBAN ----- */
+
+nav[id="skye-nav-links2"] {
+    height: 8%;
+    background-color: #FFFFFF;
+    width: 100%;
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+    color: #F5D0CC;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+#skye-nav-links2 ul {
+    border-right: #999999;
+    width: 50%;
+    float: left;
+}
+
+#skye-nav-links2 ul li {
+    list-style: none;
+    font-size: 0.92em;
+    display: inline-block;
+    padding: 1.7% 1%;
+}
+
+#skye-nav-links2 ul li a {
+    color: #999999;
+    font-family: 'Nova Square', cursive;
+}
+
+#skye-nav-links2 ul li a:hover {
+    color: black;
+}
+
+#skye-nav-links2 .right-timer {
+    float: left;
+    width: 50%;
+    /*border: 1px solid #999999;*/
+    font-size: 0.92em;
+}
+
+#skye-nav-links2 .right-timer div[class*="timer-"] {
+    /*border: 1px solid green;*/
+    float: right;
+    padding: 1.1% 1%;
+    color: #999999;
+    width: 30%;
+}
+
+#skye-nav-links2 .right-timer div[class*="timer-1"] {
+    background-color: #19C4C1;
+    color: white;
+    border-radius: 0.4em;
+}
+
+.red-time {
+    color: #FD2B1C;
+    font-size: 1.02em;
+    font-family: 'Nova Square', cursive;
+}
+
+#skye-nav-links2 .right-timer .timer-1 img {
+    width: 7em;
+    vertical-align: middle;
+    margin-right: 0.25em;
+}
+
+
+/***** banner *****/
+
+section[id="big-banner"] {
+    height: 25em;
+    ;
+    background: rgba(0, 0, 0, .27) url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/TNW-at-FTHQ-min-796x640.jpg) repeat;
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    background-size: 100% 100%;
+    display: block;
+    will-change: background-color;
+    color: white;
+}
+
+section[id="big-banner"] h1 {
+    font-size: 2.2em;
+    font-family: 'Cabin', sans-serif;
+}
+
+section[id="big-banner"] .space {
+    height: 70%;
+}
+
+section[id="big-banner"] .insigts {}
+
+section[id="big-banner"] .lower-banner {
+    font-size: 0.75em;
+    color: #E1C9FF;
+}
+
+section[id="big-banner"] .insigts {
+    color: #E1C9FF;
+}
