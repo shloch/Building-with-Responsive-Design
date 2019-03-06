@@ -165,8 +165,8 @@ div[id="cubic-blocks"] {
 
 /* cubes in smart phones*/
 
-@media only screen and (min-width: 480px) {
-    div[class*="cubic-"] {
+@media only screen and (min-width: 320px) {
+    div[id="cubic-blocks"] div[class*="cubic-"] {
         height: 100px;
         border: 3px solid coral;
         float: left;
@@ -178,7 +178,7 @@ div[id="cubic-blocks"] {
 /** cubes in 768px screens **/
 
 @media only screen and (min-width: 768px) {
-    div[class*="cubic-"] {
+    div[id="cubic-blocks"] div[class*="cubic-"] {
         height: 100px;
         border: 3px solid orangered;
         float: left;
@@ -190,7 +190,7 @@ div[id="cubic-blocks"] {
 /*cubes in large screens*/
 
 @media only screen and (min-width: 1024px) {
-    div[class*="cubic-"] {
+    div[id="cubic-blocks"] div[class*="cubic-"] {
         height: 100px;
         border: 3px solid orangered;
         float: left;
@@ -203,7 +203,6 @@ div[id="cubic-blocks"] {
 
 div[class="red-line-heading2"] {
     width: 100%;
-    height: 300px;
     /***eliminate floating effect***/
     content: "";
     clear: both;
@@ -214,7 +213,7 @@ div[class="red-line-heading2"] .last-funding,
 div[class="red-line-heading2"] .add-info {
     width: 50%;
     float: left;
-    \ height: 50px;
+    height: 50px;
     margin: 2% 0;
     font-family: 'Hind Guntur', sans-serif;
     color: #FD2A1B;
@@ -231,4 +230,52 @@ div[class="red-line-heading2"] .add-info {
 
 div[class="red-line-heading2"] .add-info a:hover {
     color: black;
+}
+
+
+/**** yellow cubic blocks *****/
+
+div[id="cubic-blocks2"] {
+    border: 1px solid black;
+    width: 100%;
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* cubes in smart phones*/
+
+@media only screen and (min-width: 320px) {
+    div[id="cubic-blocks2"] div[class*="cubic-"] {
+        height: 100px;
+        border: 3px solid coral;
+        float: left;
+        width: 100%;
+    }
+}
+
+
+/** cubes in 768px screens **/
+
+@media only screen and (min-width: 768px) {
+    div[id="cubic-blocks2"] div[class*="cubic-"] {
+        height: 100px;
+        border: 3px solid orangered;
+        float: left;
+        width: 33%;
+    }
+}
+
+
+/*cubes in large screens*/
+
+@media only screen and (min-width: 1024px) {
+    div[id="cubic-blocks2"] div[class*="cubic-"] {
+        height: 100px;
+        border: 3px solid orangered;
+        float: left;
+        width: 25%;
+    }
 }
