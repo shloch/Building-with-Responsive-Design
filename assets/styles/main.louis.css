@@ -1,16 +1,24 @@
 /***** NAVIGATION LINKS (upper black bar )**/
 
-nav[id="skye-nav-links"] {
-    height: 5%;
-    background-color: black;
-    color: gray;
-    width: 100%;
-    /***eliminate floating effect***/
-    content: "";
-    clear: both;
-    display: table;
-    color: #F5D0CC;
-    position: sticky;
+@media only screen and (min-width: 320px) {
+    nav[id="skye-nav-links"] {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    nav[id="skye-nav-links"] {
+        height: 5%;
+        background-color: black;
+        color: gray;
+        width: 100%;
+        /***eliminate floating effect***/
+        content: "";
+        clear: both;
+        display: table;
+        color: #F5D0CC;
+        position: sticky;
+    }
 }
 
 #skye-nav-links ul {
@@ -47,17 +55,44 @@ nav[id="skye-nav-links2"] {
     /*position: fixed;*/
 }
 
-#skye-nav-links2 ul {
-    border-right: #999999;
-    width: 50%;
-    float: left;
+@media only screen and (min-width: 320px) {
+    #skye-nav-links2 ul {
+        border-right: #999999;
+        width: 100%;
+        float: left;
+    }
+    #skye-nav-links2 .right-timer {
+        float: left;
+        width: 100%;
+        /*border: 1px solid #999999;*/
+        font-size: 1em;
+    }
+    #skye-nav-links2 ul li {
+        list-style: none;
+        font-size: 0.82em;
+        display: inline-block;
+        padding: 1.7% 1%;
+    }
 }
 
-#skye-nav-links2 ul li {
-    list-style: none;
-    font-size: 0.92em;
-    display: inline-block;
-    padding: 1.7% 1%;
+@media only screen and (min-width: 1024px) {
+    #skye-nav-links2 ul {
+        border-right: #999999;
+        width: 50%;
+        float: left;
+    }
+    #skye-nav-links2 .right-timer {
+        float: left;
+        width: 50%;
+        /*border: 1px solid #999999;*/
+        font-size: 0.92em;
+    }
+    #skye-nav-links2 ul li {
+        list-style: none;
+        font-size: 0.92em;
+        display: inline-block;
+        padding: 1.7% 1%;
+    }
 }
 
 #skye-nav-links2 ul li a {
@@ -67,13 +102,6 @@ nav[id="skye-nav-links2"] {
 
 #skye-nav-links2 ul li a:hover {
     color: black;
-}
-
-#skye-nav-links2 .right-timer {
-    float: left;
-    width: 50%;
-    /*border: 1px solid #999999;*/
-    font-size: 0.92em;
 }
 
 #skye-nav-links2 .right-timer div[class*="timer-"] {
@@ -105,25 +133,44 @@ nav[id="skye-nav-links2"] {
 
 /***** banner *****/
 
-section[id="big-banner"] {
-    height: 25em;
-    ;
-    background: rgba(0, 0, 0, .27) url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/TNW-at-FTHQ-min-796x640.jpg) repeat;
-    -webkit-transition: background-color .4s ease;
-    transition: background-color .4s ease;
-    background-size: 100% 100%;
-    display: block;
-    will-change: background-color;
-    color: white;
+@media only screen and (min-width: 320px) {
+    section[id="big-banner"] h1 {
+        font-size: 1.9em;
+        font-family: 'Cabin', sans-serif;
+    }
+    section[id="big-banner"] {
+        height: 16em;
+        background: rgba(0, 0, 0, .27) url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/TNW-at-FTHQ-min-796x640.jpg) repeat;
+        -webkit-transition: background-color .4s ease;
+        transition: background-color .4s ease;
+        background-size: 100% 100%;
+        display: block;
+        will-change: background-color;
+        color: white;
+    }
+    section[id="big-banner"] .space {
+        height: 50%;
+    }
 }
 
-section[id="big-banner"] h1 {
-    font-size: 2.2em;
-    font-family: 'Cabin', sans-serif;
-}
-
-section[id="big-banner"] .space {
-    height: 70%;
+@media only screen and (min-width: 1024px) {
+    section[id="big-banner"] h1 {
+        font-size: 2.2em;
+        font-family: 'Cabin', sans-serif;
+    }
+    section[id="big-banner"] {
+        height: 25em;
+        background: rgba(0, 0, 0, .27) url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/TNW-at-FTHQ-min-796x640.jpg) repeat;
+        -webkit-transition: background-color .4s ease;
+        transition: background-color .4s ease;
+        background-size: 100% 100%;
+        display: block;
+        will-change: background-color;
+        color: white;
+    }
+    section[id="big-banner"] .space {
+        height: 70%;
+    }
 }
 
 section[id="big-banner"] .insigts {}
@@ -154,7 +201,6 @@ h1[class="red-line-heading"] {
 /***** cubic blocks (latest news) ********/
 
 div[id="cubic-blocks"] {
-    border: 1px solid black;
     width: 100%;
     /***eliminate floating effect***/
     content: "";
@@ -265,23 +311,46 @@ div[class="red-line-heading2"] {
     display: table;
 }
 
-div[class="red-line-heading2"] .last-funding,
-div[class="red-line-heading2"] .add-info {
-    width: 50%;
-    float: left;
-    height: 50px;
-    margin: 2% 0;
-    font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
-    color: #f42;
-    font-weight: 700;
+
+/** cubes in 768px screens **/
+
+@media only screen and (min-width: 320px) {
+    div[class="red-line-heading2"] .last-funding,
+    div[class="red-line-heading2"] .add-info {
+        width: 100%;
+        float: left;
+        height: 50px;
+        margin: 0.5% 0;
+        font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
+        color: #f42;
+        font-weight: 700;
+        padding-left: 5%;
+    }
+    div[class="red-line-heading2"] .last-funding {
+        font-size: 1.3em;
+    }
 }
 
-div[class="red-line-heading2"] .last-funding {
-    font-size: 1.7em;
-}
 
-div[class="red-line-heading2"] .add-info {
-    padding-left: 15%
+/*cubes in large screens*/
+
+@media only screen and (min-width: 1024px) {
+    div[class="red-line-heading2"] .last-funding,
+    div[class="red-line-heading2"] .add-info {
+        width: 50%;
+        float: left;
+        height: 50px;
+        margin: 2% 0;
+        font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
+        color: #f42;
+        font-weight: 700;
+    }
+    div[class="red-line-heading2"] .add-info {
+        padding-left: 15%
+    }
+    div[class="red-line-heading2"] .last-funding {
+        font-size: 1.7em;
+    }
 }
 
 div[class="red-line-heading2"] .add-info a:hover {
@@ -292,7 +361,6 @@ div[class="red-line-heading2"] .add-info a:hover {
 /**** yellow cubic blocks *****/
 
 div[id="cubic-blocks2"] {
-    border: 1px solid black;
     width: 100%;
     /***eliminate floating effect***/
     content: "";
@@ -305,10 +373,10 @@ div[id="cubic-blocks2"] {
 
 @media only screen and (min-width: 320px) {
     div[id="cubic-blocks2"] div[class*="cubic-"] {
-        height: 100px;
-        border: 3px solid coral;
+        height: 15em;
         float: left;
-        width: 100%;
+        width: 90%;
+        margin: 2% 5%;
     }
 }
 
@@ -317,10 +385,10 @@ div[id="cubic-blocks2"] {
 
 @media only screen and (min-width: 768px) {
     div[id="cubic-blocks2"] div[class*="cubic-"] {
-        height: 100px;
-        border: 3px solid orangered;
+        height: 17em;
         float: left;
-        width: 33%;
+        width: 30%;
+        margin: 2% 1%;
     }
 }
 
@@ -329,9 +397,76 @@ div[id="cubic-blocks2"] {
 
 @media only screen and (min-width: 1024px) {
     div[id="cubic-blocks2"] div[class*="cubic-"] {
-        height: 100px;
-        border: 3px solid orangered;
+        height: 16em;
         float: left;
-        width: 25%;
+        width: 22.4%;
     }
+}
+
+
+/*********** LATEST FUNDING BLOCK *********/
+
+div[class="red-title"] {
+    height: 2em;
+    color: white;
+    background-color: #FD2A1B;
+    padding-left: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    padding-top: 0.4em;
+    font-weight: 700;
+    font-size: 0.89em;
+}
+
+div[class="lower-duo"] {
+    /***eliminate floating effect***/
+    background-color: #FFE6E2;
+    height: 3.5em;
+    padding-top: 0.4em;
+}
+
+div[class="lower-duo"] .bold-money {
+    font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    color: #000;
+}
+
+div[class="lower-duo"] .series-a {
+    font-size: 0.78em;
+    color: #999999;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial, sans-serif;
+}
+
+div[class="lower-duo"] img {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10.66666667px;
+    position: relative;
+    top: -2.5em;
+    left: 0;
+    z-index: 10;
+}
+
+div[class="lower-duo"] .orange-duo {
+    float: right;
+    width: 60%;
+    /*border: 1px solid black;*/
+    padding-bottom: 1em;
+}
+
+div[class*="two-lines"] {
+    height: 5em;
+    padding: 1em;
+    font-size: 0.89em;
+    color: #444545;
+    line-height: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial, sans-serif;
+}
+
+div[class="two-lines"] {
+    border-bottom: 1px solid #FFE6E2;
 }
