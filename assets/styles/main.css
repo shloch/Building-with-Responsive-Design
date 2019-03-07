@@ -379,6 +379,9 @@ body {
   }
 }
 @media screen and (max-width: 760px) {
+  .f-part {
+    padding: 0 2px;
+  }
   .f-part .next {
     float: none;
     width: 100%;
