@@ -11,13 +11,6 @@ body {
   max-width: 1200px;
   font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
 }
-.f-part > .next {
-  float: left;
-  padding: 12px;
-  margin: 15px 0;
-  width: 33.3333%;
-  border: 1px dashed #555;
-}
 .f-part h2 {
   padding: 10px 0;
 }
@@ -41,6 +34,14 @@ body {
 .f-part h2 > a:hover > .caret-r{
   background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="black" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>') no-repeat;
 }
+
+/* NEXT SECTION */
+.f-part > .next {
+  float: left;
+  padding: 12px;
+  margin: 15px 0;
+  width: 33.3333%;
+}
 .f-part > .next > article > h3 > a{
   display: block;
   font-size: 1.2em;
@@ -63,6 +64,21 @@ body {
   height: 276px;
   overflow: hidden;
   position: relative;
+}
+.f-part > .next > article:first-of-type:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(4) {
+  clear: left;
+}
+.f-part > .next:nth-of-type(7) {
+  clear: left;
 }
 .f-part > .next:nth-of-type(1) > article:first-of-type {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/isreal-blockchain-dlt-disribued-ledger-technology-bitcoin-securities-token-cryptocurrency-368x276.jpg) 0% 0%/100% 100% no-repeat;
@@ -90,15 +106,6 @@ body {
 }
 .f-part > .next:nth-of-type(9) > article:first-of-type {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/DMC-V-Featured-368x276.jpg) 0% 0%/100% 100% no-repeat;
-}
-.f-part > .next > article:first-of-type:before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  position: absolute;
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) 0% 0%/100% 100% no-repeat;
 }
 .f-part > .next > article:first-of-type > h3 {
   left: 15px;
@@ -180,6 +187,8 @@ body {
   font-size: 2.5em;
   position: absolute;
 }
+
+/* DEALS SECTION */
 .f-part > .deals {
   width: 100%;
   overflow: hidden;
@@ -223,6 +232,8 @@ body {
   color: #333;
   margin-left: 3px;
 }
+
+/* FOOTER */
 .f-footer {
   color: #777;
   margin-top: 40px;
