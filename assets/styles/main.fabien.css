@@ -6,6 +6,9 @@ body {
   background: #fcfcfc;
 }
 .f-part {
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1200px;
   font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
 }
 .f-part > .next {
@@ -59,7 +62,33 @@ body {
   height: 276px;
   overflow: hidden;
   position: relative;
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/Prisoner-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(1) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/isreal-blockchain-dlt-disribued-ledger-technology-bitcoin-securities-token-cryptocurrency-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(2) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Gmail-Smart-Compose-1-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(3) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Fitbit-Versa-lite-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(4) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/tower_featured-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(5) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/techband-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(6) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Xiaomi-foldable-368x276.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(7) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/image-13-368x276.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(8) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/kik-kin-cryptocurrency-blockchain-tips-1-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(9) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/DMC-V-Featured-368x276.jpg) 0% 0%/100% 100% no-repeat;
 }
 .f-part > .next > article:first-of-type:before {
   top: 0;
@@ -103,7 +132,33 @@ body {
   margin-left: -0.3em;
   display: inline-block;
   vertical-align: middle;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/Uber-Volvo-self-driving-SUV.jpg") 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(1) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(2) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/iPhone-PS4-Remote-Play.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(3) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/meizunote.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(4) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/header-image-basics-video-throttling-iphone.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(5) > article:last-of-type > a {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg") 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(6) > article:last-of-type > a {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg") 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(7) > article:last-of-type > a {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg") 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(8) > article:last-of-type > a {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg") 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(9) > article:last-of-type > a {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg") 0% 0%/100% 100% no-repeat;
 }
 .f-part > .next ul > li {
   color: #666;
@@ -169,6 +224,7 @@ body {
 }
 .f-footer {
   color: #777;
+  margin-top: 40px;
   text-align: center;
   border-top: 1px solid transparent;
   font-family: "Ropa Sans", sans-serif;
