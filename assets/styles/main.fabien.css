@@ -124,6 +124,10 @@ body {
   font-size: 2.5em;
   position: absolute;
 }
+.f-part > .deals {
+  width: 100%;
+  overflow: hidden;
+}
 .f-part > .deals > .story {
   width: 25%;
   float: left;
@@ -154,9 +158,6 @@ body {
   font-weight: 700;
   font-size: 0.95em;
 }
-.f-part > .deals > .story > .price {
-  /* padding: 10px 0; */
-}
 .f-part > .deals > .story > .price > .old {
   color: #999;
   font-size: 0.8em;
@@ -165,4 +166,75 @@ body {
 .f-part > .deals > .story > .price > .new {
   color: #333;
   margin-left: 3px;
+}
+.f-footer {
+  color: #777;
+  text-align: center;
+  border-top: 1px solid transparent;
+  font-family: "Ropa Sans", sans-serif;
+}
+.f-footer .links {
+  padding: 25px;
+  background: #131313;
+}
+.f-footer .links > .social {
+  margin-bottom: 15px;
+}
+.f-footer .links > .social > li {
+  margin: 0 5px;
+  display: inline-block;
+}
+.f-footer .links > .social > li > a {
+  padding: 12px;
+  display: block;
+  background: #333;
+  border-radius: 50%;
+}
+.f-footer .links > .social .icon {
+  width: 18px;
+  height: 16px;
+  display: block;
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-size: 1296px 1296px;
+}
+.f-footer .links > .menu > li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.f-footer .links > .menu > li > a {
+  padding: 5px;
+  display: block;
+}
+.f-footer .links .icon.facebook {
+  background-position: -272px -272px;
+}
+.f-footer .links .icon.twitter {
+  background-position: -1024px -1024px;
+}
+.f-footer .links .icon.youtube {
+  background-position: -1280px -1280px;
+}
+.f-footer .links .icon.instagram {
+  background-position: -416px -416px;
+}
+.f-footer .links .icon.pinterest {
+  background-position: -672px -672px;
+}
+.f-footer .links .icon.rss {
+  background-position: -816px -816px;
+}
+.f-footer .links .icon.mail {
+  background-position: -576px -576px;
+}
+.f-footer .legal {
+  padding: 35px;
+  background: #000;
+}
+.f-footer .legal .logoTNW {
+  width: 37px;
+  vertical-align: middle;
+}
+.f-footer .legal .logoStackPath {
+  width: 65px;
+  vertical-align: middle;
 }
