@@ -6,13 +6,10 @@ body {
   background: #fcfcfc;
 }
 .f-part {
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1200px;
   font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
-}
-.f-part > .next {
-  float: left;
-  padding: 12px;
-  margin: 15px 0;
-  width: 33.3333%;
 }
 .f-part h2 {
   padding: 10px 0;
@@ -37,6 +34,14 @@ body {
 .f-part h2 > a:hover > .caret-r{
   background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="black" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>') no-repeat;
 }
+
+/* NEXT SECTION */
+.f-part > .next {
+  float: left;
+  padding: 12px;
+  margin: 15px 0;
+  width: 33.3333%;
+}
 .f-part > .next > article > h3 > a{
   display: block;
   font-size: 1.2em;
@@ -59,7 +64,6 @@ body {
   height: 276px;
   overflow: hidden;
   position: relative;
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/Prisoner-368x276.jpg) 0% 0%/100% 100% no-repeat;
 }
 .f-part > .next > article:first-of-type:before {
   top: 0;
@@ -69,6 +73,39 @@ body {
   content: "";
   position: absolute;
   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(4) {
+  clear: left;
+}
+.f-part > .next:nth-of-type(7) {
+  clear: left;
+}
+.f-part > .next:nth-of-type(1) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/isreal-blockchain-dlt-disribued-ledger-technology-bitcoin-securities-token-cryptocurrency-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(2) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Gmail-Smart-Compose-1-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(3) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Fitbit-Versa-lite-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(4) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/tower_featured-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(5) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/techband-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(6) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Xiaomi-foldable-368x276.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(7) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/image-13-368x276.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(8) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/kik-kin-cryptocurrency-blockchain-tips-1-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(9) > article:first-of-type {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/DMC-V-Featured-368x276.jpg) 0% 0%/100% 100% no-repeat;
 }
 .f-part > .next > article:first-of-type > h3 {
   left: 15px;
@@ -103,7 +140,33 @@ body {
   margin-left: -0.3em;
   display: inline-block;
   vertical-align: middle;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/Uber-Volvo-self-driving-SUV.jpg") 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(1) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/blockchain-water.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(2) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/iPhone-PS4-Remote-Play.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(3) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/meizunote.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(4) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/header-image-basics-video-throttling-iphone.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(5) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/amsterdamcen.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(6) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Untitled-design119.png) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(7) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Dome-Area_People_25-May-2018_Marije-Kuiper_19158.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(8) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/harley-livewire.jpg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .next:nth-of-type(9) > article:last-of-type > a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/Apex-Legends-Hed.jpg) 0% 0%/100% 100% no-repeat;
 }
 .f-part > .next ul > li {
   color: #666;
@@ -124,23 +187,122 @@ body {
   font-size: 2.5em;
   position: absolute;
 }
+
+/* DEALS SECTION */
+.f-part > .deals {
+  width: 100%;
+  overflow: hidden;
+}
 .f-part > .deals > .story {
   width: 25%;
   float: left;
+  padding: 10px;
   position: relative;
 }
 .f-part > .deals > .story > a:first-of-type {
   width: 100%;
   height: 200px;
   display: block;
-  border: 1px dashed #455;
   background: url(https://cdnp1.stackassets.com/74c3b0e1582495e1f6c08caf6749da749a159fdb/store/d09b3f903ff55298c014aa23356ff168a1a32d7a1d11e6180c598a5e05dd/sale_14911_primary_image.jpg) 0% 0%/100% 100% no-repeat;
 }
 .f-part > .deals > .story > .discount {
-  top: 0;
-  right: 0;
-  width: 70px;
-  height: 70px;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg) 0% 0%/100% 100% no-repeat;
+}
+.f-part > .deals > .story > .discount > .rotate {
+  font-size: 0.9em;
+  font-weight: 700;
+  transform: rotate(45deg) translate(30px, 10px);
+}
+.f-part > .deals > .story > h4.title {
+  padding: 7px 0;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+.f-part > .deals > .story > .price > .old {
+  color: #999;
+  font-size: 0.8em;
+  text-decoration: line-through;
+}
+.f-part > .deals > .story > .price > .new {
+  color: #333;
+  margin-left: 3px;
+}
+
+/* FOOTER */
+.f-footer {
+  color: #777;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 1px solid transparent;
+  font-family: "Ropa Sans", sans-serif;
+}
+.f-footer .links {
+  padding: 25px;
+  background: #131313;
+}
+.f-footer .links > .social {
+  margin-bottom: 15px;
+}
+.f-footer .links > .social > li {
+  margin: 0 5px;
+  display: inline-block;
+}
+.f-footer .links > .social > li > a {
+  padding: 12px;
+  display: block;
+  background: #333;
+  border-radius: 50%;
+}
+.f-footer .links > .social .icon {
+  width: 18px;
+  height: 16px;
+  display: block;
+  background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-size: 1296px 1296px;
+}
+.f-footer .links > .menu > li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.f-footer .links > .menu > li > a {
+  padding: 5px;
+  display: block;
+}
+.f-footer .links .icon.facebook {
+  background-position: -272px -272px;
+}
+.f-footer .links .icon.twitter {
+  background-position: -1024px -1024px;
+}
+.f-footer .links .icon.youtube {
+  background-position: -1280px -1280px;
+}
+.f-footer .links .icon.instagram {
+  background-position: -416px -416px;
+}
+.f-footer .links .icon.pinterest {
+  background-position: -672px -672px;
+}
+.f-footer .links .icon.rss {
+  background-position: -816px -816px;
+}
+.f-footer .links .icon.mail {
+  background-position: -576px -576px;
+}
+.f-footer .legal {
+  padding: 35px;
+  background: #000;
+}
+.f-footer .legal .logoTNW {
+  width: 37px;
+  vertical-align: middle;
+}
+.f-footer .legal .logoStackPath {
+  width: 65px;
+  vertical-align: middle;
 }
