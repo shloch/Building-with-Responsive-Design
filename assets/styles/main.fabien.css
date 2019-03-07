@@ -2,9 +2,13 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background: #fcfcfc;
+}
 section {
   float: left;
-  padding: 20px;
+  padding: 12px;
+  margin: 15px 0;
   width: 33.3333%;
   font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
 }
@@ -31,19 +35,6 @@ section > h2 > a > .caret-r{
 section > h2 > a:hover > .caret-r{
   background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="black" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>') no-repeat;
 }
-section > article:first-of-type {
-  color: #fff;
-  height: 276px;
-  overflow: hidden;
-  position: relative;
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/Prisoner-368x276.jpg) 0% 0%/100% 100% no-repeat;
-}
-section > article:first-of-type > h3 {
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  position: absolute;
-}
 section > article > h3 > a{
   display: block;
   font-size: 1.2em;
@@ -61,12 +52,65 @@ section > article > h3 > .author{
   margin-top: 10px;
   font-weight: bold;
 }
+section > article:first-of-type {
+  color: #fff;
+  height: 276px;
+  overflow: hidden;
+  position: relative;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/Prisoner-368x276.jpg) 0% 0%/100% 100% no-repeat;
+}
+section > article:first-of-type:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) 0% 0%/100% 100% no-repeat;
+}
+section > article:first-of-type > h3 {
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  position: absolute;
+}
+section > article:last-of-type {
+  color: #f42;
+  overflow: hidden;
+  padding-top: 2px;
+  background: rgba(255,68,34,.06);
+}
+section > article:last-of-type > h3 {
+  width: 75%;
+  height: 80px;
+  overflow: hidden;
+  font-size: 0.9em;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 10px 5px 15px;
+}
+section > article:last-of-type > h3 > a {
+  font-size: 0.98em;
+}
+section > article:last-of-type > h3 > a:hover {
+  text-decoration: underline;
+}
+section > article:last-of-type > a {
+  width: 25%;
+  height: 90px;
+  margin-left: -0.3em;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/Uber-Volvo-self-driving-SUV.jpg") 0% 0%/100% 100% no-repeat;
+}
 section ul > li {
-  border-bottom: 1px solid #bbb;
+  color: #666;
+  font-size: 0.85em;
+  border-bottom: 1px solid #eee;
 }
 section ul > li > a {
   display: block;
-  padding: 10px 15px;
+  padding: 7px 15px;
   position: relative;
 }
 section ul > li > a:before {
