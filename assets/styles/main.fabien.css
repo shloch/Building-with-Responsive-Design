@@ -193,6 +193,19 @@ body {
   width: 100%;
   overflow: hidden;
 }
+.f-part > .deals > h2 {
+  position: relative;
+}
+.f-part > .deals > h2 > .deals-left {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 18px;
+  font-size: initial;
+  position: absolute;
+  font-weight: normal;
+}
 .f-part > .deals > .story {
   width: 25%;
   float: left;
@@ -386,7 +399,10 @@ body {
     height: 80px;
     grid-area: 1 / 1 / span 3 / 2;
   }
-  .f-part > .deals > .story > .title,
+  .f-part > .deals > .story > .title > a {
+    display: block;
+  }
+  .f-part > .deals > .story > .title > a,
   .f-part > .deals > .story > .price {
     padding: 0 10px;
   }
