@@ -699,6 +699,8 @@ h1[class="red-line-heading"] {
     font-family: "Maven Pro", "Helvetica Neue", Arial, sans-serif;
     width: 100%;
     color: #FD2A1B;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
@@ -706,6 +708,8 @@ h1[class="red-line-heading"] {
 
 div[id="cubic-blocks"] {
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
     /***eliminate floating effect***/
     content: "";
     clear: both;
@@ -806,6 +810,8 @@ div[id="cubic-blocks"] div[class*="cubic-"] h2 a:hover {
 
 div[class="red-line-heading2"] {
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
     /***eliminate floating effect***/
     content: "";
     clear: both;
@@ -867,6 +873,8 @@ div[id="cubic-blocks2"] {
     content: "";
     clear: both;
     display: table;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
