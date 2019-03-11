@@ -11,4 +11,4 @@ This project is part of [Microverse](https://www.microverse.org/) learning path.
 
 ## Live demo
 
-The live demo is available at: _https://raw.githack.com/shloch/Building-with-Responsive-Design/develop/index.html_
+The live demo is available at: https://raw.githack.com/shloch/Building-with-Responsive-Design/master/index.html
