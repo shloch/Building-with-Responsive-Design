@@ -16,6 +16,13 @@ The live demo is available at: https://raw.githack.com/shloch/Building-with-Resp
 - Linkedin: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
 - Email: shloch2007@yahoo.fr
 
-## 👤 **Fabien RAKOTOMAMPIANDRA**
+### 👤 **Fabien RAKOTOMAMPIANDRA**
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
+
+## Acknowledgements
+- https://raw.githack.com/
+- https://getbootstrap.com/
+- https://fontawesome.com/
+- https://thenextweb.com/
+- https://fonts.googleapis.com
 
