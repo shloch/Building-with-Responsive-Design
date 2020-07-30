@@ -7,6 +7,11 @@ This project is part of [Microverse](https://www.microverse.org/) learning path.
 ## Live demo
 
 The live demo is available at: https://raw.githack.com/shloch/Building-with-Responsive-Design/master/index.html
+
+![alt text](https://github.com/shloch/Building-with-Responsive-Design/blob/master/assets/images/nyt.gif)
+
+![alt text](https://github.com/shloch/Building-with-Responsive-Design/blob/master/assets/images/nyt2.gif)
+
 ## Contributors
 
 ### 👤 **SHEY Louis CHIA**
